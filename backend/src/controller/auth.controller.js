@@ -86,7 +86,7 @@ export const signup = async (req, res) => {
             message: 'User registered successfully',
             user: {
                 id: result.insertId,
-                fullName: User_Name,
+                User_Name: User_Name,
                 email: User_Email,
                 mobile: User_Mobile
             },
